@@ -2,6 +2,7 @@ import CartWidget from "./CartWidget"
 
 function NavBar () {
     return (
+      <>
       <div className="navbar bg-base-100">
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
@@ -13,8 +14,9 @@ function NavBar () {
     </ul>
   </div>
 </div>
-
-    )
+ <CartWidget/>
+ </>
+ )
 }
 
 export default NavBar
